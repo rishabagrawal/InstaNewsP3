@@ -1,13 +1,13 @@
-const gulp = require("gulp");
-const terser = require("gulp-terser");
-const rename = require("gulp-rename");
-const broswerSync = require("browser-sync");
-const eslint = require("gulp-eslint");
-const prettyError = require("gulp-prettyError");
+const gulp = require('gulp');
+const terser = require('gulp-terser');
+const rename = require('gulp-rename');
+const browserSync = require('browser-sync');
+const eslint = require('gulp-eslint');
+const prettyError = require('gulp-prettyerror');
 
-gulp.task("lint", function() {
+gulp.task('lint', function() {
   return gulp
-    .src(["./js/*.js"])
+    .src(['./js/*.js'])
     .pipe(prettyError())
     .pipe(eslint())
     .pipe(eslint.format())
@@ -15,30 +15,31 @@ gulp.task("lint", function() {
 });
 
 gulp.task(
-  "scripts",
-  gulp.series("lint", function() {
+  'scripts',
+  gulp.series('lint', function() {
     return gulp
-      .src("./js/*.js")
+      .src('./js/*.js')
       .pipe(terser())
-      .pipe(rename({ extname: ".min.js" }))
-      .pipe(gulp.dest("./build/js"));
+      .pipe(rename({ extname: '.min.js' }))
+      .pipe(gulp.dest('./build/js'));
   })
 );
 
-gulp.task("browser-sync", function(done) {
-  broswerSync.init({
+gulp.task('browser-sync', function(done) {
+  browserSync.init({
     server: {
-      baseDir: "./"
+      baseDir: './'
     }
-  }); // end browser-sync init
+  }); // end of browserSync.init
 
   gulp
-    .watch(["index.html", "css/*.css", "build/js/*.js"])
-    .on("change", broswerSync.reload);
-}); //browser-sync
+    .watch(['index.html', 'css/*.css', 'build/js/*.js'])
+    .on('change', browserSync.reload);
+}); // browser-sync
 
-gulp.task("watch", function() {
-  gulp.watch("js/*.js", gulp.series("scripts"));
+gulp.task('watch', function() {
+  gulp.watch('js/*.js', gulp.series('scripts'));
 });
 
-gulp.task("default", gulp.parallel("browser-sync", "watch"));
+// default gulp runs everything at once in this case
+gulp.task('default', gulp.parallel('browser-sync', 'watch'));
