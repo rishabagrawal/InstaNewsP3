@@ -33,6 +33,14 @@
 		"oAP": "/build/.vscode-janus-debug",
 		"oF": 0
 		},
+	"/.vscode/launch.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/build/.vscode/launch-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
