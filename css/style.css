@@ -86,13 +86,20 @@ img {
     range: 5;
 }
 .loading{
+    display: none;
+    width: 30px;
+    position: absolute;
 
 }
+
 .boxtwo {
-    
+    display: flex;
     color: white;
     align-items: center;
     margin-left: 22%;
+}
+.img {
+    display: flex;
 }
  .p {
   align-content: center;  
