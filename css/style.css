@@ -60,6 +60,7 @@ body {
     max-width: 100%;
     font-size: 16px;
     font-family: 'Open Sans';
+    
 } 
 
 img {
@@ -82,10 +83,11 @@ img {
 } 
 
 .logo-pic {
-    range: 500px;
+    range: 5;
 }
+.loading{
 
-
+}
 .boxtwo {
     
     color: white;
@@ -109,7 +111,9 @@ img {
     border-radius:5px;
     height: 150px;
 } 
-
+.articles{
+    color:white;
+}
 
 
 .boxfour {    

@@ -1,34 +1,34 @@
+$(function() {
 
-$('selectors').on('click', 'button', function() {
-  const selected = $(this).val();
-  if (selected !== '') 
+  const loadingIcon=$('.loading');
+  const articles=$('.articles');
 
-  // $('.loading').show(1500);
-$.ajax({
-    method:'get',
-    url:'https://api.nytimes.com/svc/topstories/v2/arts.json?api-key=D5H6I9oboArY2CG6wjPNy9BAvjnLZOey'
-  })
-  .done(function(data){
-    console.log(data);
-  });
-
-
-
-$('#travels').on('change', function() {
-    const selected = $(this).val();
-    if (selected !== '') {
-      console.log('The value you picked is: ' + selected);
+  loadingIcon.hide();
+  $('.selection').on('change','.selectors',function(){
+    const selectors=$(this).val();
+    //if(selectors==='home')return;
+    $.ajax({
+          method:'get',
+          url:'https://api.nytimes.com/svc/topstories/v2/' +selectors+ '.json?api-key=D5H6I9oboArY2CG6wjPNy9BAvjnLZOey',
+        }).done(function(data) {
+          articles.empty();
+          loadingIcon.hide();
+          //const results=data.results;
+          const results=data.results.filter((element)=>{return element.multimedia;}).slice(0,12);
+      $.each(results, function(key, value) {
+        const title=value.title;
+        const link=value.multimedia[4].url;
+        const text=value.abstract;
+        const html='<img src='+link+'><h1>'+title+'</h1><p>'+text+'</p>';
+        articles.append(html);
+      });
+    }).always(function(){
+      loadingIcon.show();
     }
+    )
   });
 });
-
-
-// $("button").on("click", function() {
-//   $.ajax({
-//     method: 'GET',
-//     url:'https://api.github.com/users/octocat/repos?client_id=a37c6077034750f953fc&client_secret=8ff75658b21aa8c5830b7efeae85f559b4d36a02'})
-//     .done(function(data) {
-//     $.each(data, function(key, value) {
-      
-//        $('.repo-list').append('<li>'+value.name+'</li>');
-  
+ 
+/*
+    <img src='link'/><h1>title</h1><p>text</p>
+*/
