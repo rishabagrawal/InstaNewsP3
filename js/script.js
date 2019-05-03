@@ -6,7 +6,7 @@ $(function() {
   loadingIcon.hide();
   $('.selection').on('change','.selectors',function(){
     const selectors=$(this).val();
-    //if(selectors==='home')return;
+    if(selectors==='')return;
     $.ajax({
           method:'get',
           url:'https://api.nytimes.com/svc/topstories/v2/' +selectors+ '.json?api-key=D5H6I9oboArY2CG6wjPNy9BAvjnLZOey',
