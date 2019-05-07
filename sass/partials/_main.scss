@@ -1,86 +1,81 @@
 /*Body*/
 /* 
     Global Att */
-    body {
-        background-color: black;  
-        box-sizing: border-box;
-        display: flex; 
-        flex-direction: column; 
-        align-content: center;
-        justify-content: center; 
-        min-height: 100vh;
-        max-width: 100%;
-        font-size: 16px;
-        font-family: 'Open Sans';
-        
-    } 
-    
-    img {
-        height: auto;
-        max-width: 100%;
-    }
-          
-    /* 
+body {
+  background-color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* 
         Global Att */
-    
-    
-    .boxone {
-        padding: 100px; 
-        min-height: auto;
-        min-width: auto;
-    } 
-    
-    .logo-pic {
-        range: 5;
-    }
-    .loading{
-        display: none;
-        width: 30px;
-        position: absolute;
-    
-    }
-    
-    .boxtwo {
-        display: flex;
-        color: white;
-        justify-content: center;
-    }
-    .img {
-        display: flex;
-    }
-     .seletion {
-      align-content: center;  
-    
-    } 
-    
-    .selectors {
-        background: white;
-        text-align: center;
-        width: 150px;
-        font-family: 'Open Sans';
-    }
-    
-     .boxthree {
-    max-width: auto;
-    max-height: auto;
-    } 
-    .articles{
-        color:white;
-        font-family: 'Open Sans';
-    }
-    
-    
-    .boxfour {    
-        padding-left: 50px;
-        padding: 50px;   
-    }
-    
-    .footer-txt {
-        font-size: 20px;
-        color: gray;
-        text-transform: uppercase;
-        font-family: 'Open Sans';
-    }
-    
-    
-    
+
+.boxone {
+  padding: 100px;
+  min-height: auto;
+  min-width: auto;
+}
+
+.logo-pic {
+  range: 5;
+}
+.loading {
+  display: none;
+  width: 30px;
+  position: absolute;
+}
+
+.boxtwo {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+.img {
+  display: flex;
+}
+.seletion {
+  align-content: center;
+}
+
+.selectors {
+  background: white;
+  text-align: center;
+  width: 150px;
+  font-family: "Open Sans";
+}
+
+.boxthree {
+  max-width: auto;
+  max-height: auto;
+}
+.articles 
+    ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.boxfour {
+  padding-left: 50px;
+  padding: 50px;
+}
+
+.footer-txt {
+  font-size: 20px;
+  color: gray;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+}

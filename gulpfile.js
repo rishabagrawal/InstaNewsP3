@@ -46,7 +46,7 @@ gulp.task(
   })
 );
 
-gulp.task('browser-sync', function(done) {
+gulp.task('browser-sync', function(_done) {
   browserSync.init({
     server: {
       baseDir: './'
