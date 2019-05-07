@@ -18,12 +18,13 @@ $(function() {
           // loadingIcon.hide();
           //const results=data.results;
           const results=data.results.filter((element)=>{return element.multimedia;}).slice(0,12);
+          // console.log(results);
       $.each(results, function(_key, value) {
+        const url=value.url;
         const link=value.multimedia[4].url;
         const text=value.abstract;
-        const html='<img src='+link+'><p>'+text+'</p>';
+        const html='<a href='+url+' target=“_blank”><img src='+link+'><p>'+text+'</p></a>';
         articles.append(html);
-        // <a href=${url} target=“_blank”><img src=${link}> <p =${text}></a></img></p>
       });
 
       
