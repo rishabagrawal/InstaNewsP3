@@ -307,7 +307,6 @@ template {
 [hidden] {
   display: none; }
 
-/* for desktop */
 /*Body*/
 /* 
     Global Att */
@@ -330,11 +329,15 @@ body {
   min-height: 100vh;
   max-width: 100%;
   font-size: 16px;
-  font-family: 'Open Sans'; }
+  font-family: "Open Sans"; }
 
 img {
-  height: auto;
-  max-width: 100%; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%; }
 
 /* 
         Global Att */
@@ -344,44 +347,48 @@ img {
   min-width: auto; }
 
 .logo-pic {
-  range: 5; }
+  width: auto; }
 
 .loading {
-  display: none;
   width: 30px;
   position: absolute; }
 
 .boxtwo {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
-.seletion {
-  -ms-flex-line-pack: center;
-      align-content: center; }
+.selection p {
+  text-align: center; }
 
 .selectors {
   background: white;
   text-align: center;
   width: 150px;
-  font-family: 'Open Sans'; }
+  font-family: "Open Sans"; }
 
 .boxthree {
-  max-width: auto;
-  max-height: auto; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .articles {
-  color: white;
-  font-family: 'Open Sans'; }
+  width: 45%;
+  padding: 0; }
+
+.articles img {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+div.articles {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6; }
+
+div.articles p {
+  margin: 5%;
+  font-weight: bold;
+  color: black; }
 
 .boxfour {
   padding-left: 50px;
@@ -391,7 +398,7 @@ img {
   font-size: 20px;
   color: gray;
   text-transform: uppercase;
-  font-family: 'Open Sans'; }
+  font-family: "Open Sans"; }
 
 @font-face {
   font-family: 'Open Sans';

@@ -16,8 +16,9 @@ body {
 
 
 img {
-  height: auto;
-  max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
 }
 
 /* 
@@ -30,24 +31,20 @@ img {
 }
 
 .logo-pic {
-  range: 5;
+  width: auto;
 }
 .loading {
-  display: none;
   width: 30px;
   position: absolute;
 }
 
+
 .boxtwo {
   display: flex;
-  color: white;
-  justify-content: center;
 }
-.img {
-  display: flex;
-}
-.seletion {
-  align-content: center;
+
+.selection p {
+    text-align: center;
 }
 
 .selectors {
@@ -58,14 +55,32 @@ img {
 }
 
 .boxthree {
-  max-width: auto;
-  max-height: auto;
+    display: flex;
+  
+
 }
-.articles 
-    ul{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.articles {
+  width: 45%;
+  padding: 0;
+}
+.articles ul{
+    // justify-content: space-around;
+}
+
+.articles img {
+    flex-wrap: wrap;
+}
+
+div.articles {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.articles p {
+  margin: 5%;
+  font-weight: bold;
+  color:black;
 }
 
 .boxfour {

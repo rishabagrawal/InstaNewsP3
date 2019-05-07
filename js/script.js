@@ -23,8 +23,7 @@ $(function() {
         const text=value.abstract;
         const html='<img src='+link+'><p>'+text+'</p>';
         articles.append(html);
-      // $('.articles').append(``)
-      // Object.assign(document.createElement('a'), { target: '_blank', href: 'https://api.nytimes.com/svc/topstories/v2/' +selectors+ '.json?api-key=D5H6I9oboArY2CG6wjPNy9BAvjnLZOey'}).click(1);
+        // <a href=${url} target=“_blank”><img src=${link}> <p =${text}></a></img></p>
       });
 
       
