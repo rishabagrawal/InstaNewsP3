@@ -17,7 +17,7 @@ body {
 
 /* 
         Global Att */
-
+// logo starts
 .boxone {
   padding: 100px;
   min-height: auto;
@@ -27,11 +27,19 @@ body {
 .logo-pic {
   width: auto;
 }
+
+// logo ends
+
+
+// loader starts
 .loading {
   width: 30px;
   position: absolute;
 }
+//loader ends
 
+
+//selection box start
 
 .boxtwo {
   display: flex;
@@ -39,8 +47,9 @@ body {
   padding-left: 30%;
 }
 
-.selection p {
-    text-align: center;
+h1 {
+  text-align: center;
+  font-size: inherit;
 }
 
 .selectors {
@@ -50,10 +59,9 @@ body {
   font-family: "Open Sans";
 }
 
-.boxthree {
-   
-    
-}
+//selection ends
+
+//articles starts
 
 .articles ul{
   display: flex;
@@ -75,14 +83,18 @@ body {
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
   padding: 8px;
 }
+// articles end
 
+// footer starts
 .boxfour {
   padding: 50px;
 }
 
-.footer-txt p{
-  font-size: 16px;
+h2{
+  text-align: center;
+  font-size: 10px;
+  position: sticky;
   color: gray;
   text-transform: uppercase;
-  font-family: "Open Sans";
 }
+//footer ends 

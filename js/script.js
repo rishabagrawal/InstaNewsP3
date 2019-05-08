@@ -6,7 +6,7 @@ $(function() {
   const loadingIcon=$('.loading');
   const articles=$('.articles');
 
-  loadingIcon.show();
+  loadingIcon.show(1500);
   $('.selection').on('change','.selectors',function(){
     const selectors=$(this).val();
     if (selectors===''){return}
@@ -15,7 +15,7 @@ $(function() {
           url:'https://api.nytimes.com/svc/topstories/v2/' +selectors+ '.json?api-key=D5H6I9oboArY2CG6wjPNy9BAvjnLZOey',
         }).done(function(data) {
           articles.empty();
-          // loadingIcon.hide();
+          //  loadingIcon.hide();
          
           const results=data.results.filter((element)=>{return element.multimedia;}).slice(0,12);
           // console.log(results);
@@ -29,7 +29,7 @@ $(function() {
 
       
     }).always(function(){
-      loadingIcon.hide();
+      loadingIcon.hide(50);
     }
     )
   });

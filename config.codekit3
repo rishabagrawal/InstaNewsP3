@@ -490,262 +490,262 @@
 	"babelNoComments": 0,
 	"babelPlugins": {
 		"arrow-functions": {
-			"active": 0
+			"active": false
 			},
 		"async-generator-functions": {
-			"active": 0
+			"active": false
 			},
 		"async-to-generator": {
-			"active": 0
+			"active": false
 			},
 		"block-scoped-functions": {
-			"active": 0
+			"active": false
 			},
 		"block-scoping": {
-			"active": 0
+			"active": false
 			},
 		"class-properties": {
-			"active": 0
+			"active": false
 			},
 		"classes": {
-			"active": 0
+			"active": false
 			},
 		"computed-properties": {
-			"active": 0
+			"active": false
 			},
 		"decorators": {
-			"active": 0
+			"active": false
 			},
 		"destructuring": {
-			"active": 0
+			"active": false
 			},
 		"do-expressions": {
-			"active": 0
+			"active": false
 			},
 		"dotall-regex": {
-			"active": 0
+			"active": false
 			},
 		"duplicate-keys": {
-			"active": 0
+			"active": false
 			},
 		"exponentiation-operator": {
-			"active": 0
+			"active": false
 			},
 		"export-default-from": {
-			"active": 0
+			"active": false
 			},
 		"export-namespace-from": {
-			"active": 0
+			"active": false
 			},
 		"external-helpers": {
-			"active": 0
+			"active": false
 			},
 		"flow-strip-types": {
-			"active": 0
+			"active": false
 			},
 		"for-of": {
-			"active": 0
+			"active": false
 			},
 		"function-bind": {
-			"active": 0
+			"active": false
 			},
 		"function-name": {
-			"active": 0
+			"active": false
 			},
 		"function-sent": {
-			"active": 0
+			"active": false
 			},
 		"inline-consecutive-adds": {
-			"active": 0
+			"active": false
 			},
 		"inline-environment-variables": {
-			"active": 0
+			"active": false
 			},
 		"instanceof": {
-			"active": 0
+			"active": false
 			},
 		"jscript": {
-			"active": 0
+			"active": false
 			},
 		"literals": {
-			"active": 0
+			"active": false
 			},
 		"logical-assignment-operators": {
-			"active": 0
+			"active": false
 			},
 		"member-expression-literals": {
-			"active": 0
+			"active": false
 			},
 		"merge-sibling-variables": {
-			"active": 0
+			"active": false
 			},
 		"minify-booleans": {
-			"active": 0
+			"active": false
 			},
 		"minify-builtins": {
-			"active": 0
+			"active": false
 			},
 		"minify-constant-folding": {
-			"active": 0
+			"active": false
 			},
 		"minify-dead-code-elimination": {
-			"active": 0
+			"active": false
 			},
 		"minify-flip-comparisons": {
-			"active": 0
+			"active": false
 			},
 		"minify-guarded-expressions": {
-			"active": 0
+			"active": false
 			},
 		"minify-infinity": {
-			"active": 0
+			"active": false
 			},
 		"minify-mangle-names": {
-			"active": 0
+			"active": false
 			},
 		"minify-numeric-literals": {
-			"active": 0
+			"active": false
 			},
 		"minify-simplify": {
-			"active": 0
+			"active": false
 			},
 		"minify-type-constructors": {
-			"active": 0
+			"active": false
 			},
 		"modules-amd": {
-			"active": 0
+			"active": false
 			},
 		"modules-commonjs": {
-			"active": 0
+			"active": false
 			},
 		"modules-systemjs": {
-			"active": 0
+			"active": false
 			},
 		"modules-umd": {
-			"active": 0
+			"active": false
 			},
 		"new-target": {
-			"active": 0
+			"active": false
 			},
 		"node-env-inline": {
-			"active": 0
+			"active": false
 			},
 		"nullish-coalescing-operator": {
-			"active": 0
+			"active": false
 			},
 		"numeric-separator": {
-			"active": 0
+			"active": false
 			},
 		"object-assign": {
-			"active": 0
+			"active": false
 			},
 		"object-rest-spread": {
-			"active": 0
+			"active": false
 			},
 		"object-set-prototype-of-to-assign": {
-			"active": 0
+			"active": false
 			},
 		"object-super": {
-			"active": 0
+			"active": false
 			},
 		"optional-catch-binding": {
-			"active": 0
+			"active": false
 			},
 		"optional-chaining": {
-			"active": 0
+			"active": false
 			},
 		"parameters": {
-			"active": 0
+			"active": false
 			},
 		"pipeline-operator": {
-			"active": 0
+			"active": false
 			},
 		"private-methods": {
-			"active": 0
+			"active": false
 			},
 		"property-literals": {
-			"active": 0
+			"active": false
 			},
 		"property-mutators": {
-			"active": 0
+			"active": false
 			},
 		"proto-to-assign": {
-			"active": 0
+			"active": false
 			},
 		"react-constant-elements": {
-			"active": 0
+			"active": false
 			},
 		"react-display-name": {
-			"active": 0
+			"active": false
 			},
 		"react-inline-elements": {
-			"active": 0
+			"active": false
 			},
 		"react-jsx": {
-			"active": 0
+			"active": false
 			},
 		"react-jsx-compat": {
-			"active": 0
+			"active": false
 			},
 		"react-jsx-self": {
-			"active": 0
+			"active": false
 			},
 		"react-jsx-source": {
-			"active": 0
+			"active": false
 			},
 		"regenerator": {
-			"active": 0
+			"active": false
 			},
 		"regexp-constructors": {
-			"active": 0
+			"active": false
 			},
 		"remove-console": {
-			"active": 0
+			"active": false
 			},
 		"remove-debugger": {
-			"active": 0
+			"active": false
 			},
 		"remove-undefined": {
-			"active": 0
+			"active": false
 			},
 		"reserved-words": {
-			"active": 0
+			"active": false
 			},
 		"runtime": {
-			"active": 0
+			"active": false
 			},
 		"shorthand-properties": {
-			"active": 0
+			"active": false
 			},
 		"simplify-comparison-operators": {
-			"active": 0
+			"active": false
 			},
 		"spread": {
-			"active": 0
+			"active": false
 			},
 		"sticky-regex": {
-			"active": 0
+			"active": false
 			},
 		"strict-mode": {
-			"active": 0
+			"active": false
 			},
 		"template-literals": {
-			"active": 0
+			"active": false
 			},
 		"throw-expressions": {
-			"active": 0
+			"active": false
 			},
 		"typeof-symbol": {
-			"active": 0
+			"active": false
 			},
 		"undefined-to-void": {
-			"active": 0
+			"active": false
 			},
 		"unicode-property-regex": {
-			"active": 0
+			"active": false
 			},
 		"unicode-regex": {
-			"active": 0
+			"active": false
 			}
 		},
 	"babelRetainLines": 0,
@@ -762,139 +762,139 @@
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"camel_case_classes": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"colon_assignment_spacing": {
-			"active": 0,
+			"active": false,
 			"flagValue": 1
 			},
 		"cyclomatic_complexity": {
-			"active": 0,
+			"active": false,
 			"flagValue": 10
 			},
 		"duplicate_key": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"empty_constructor_needs_parens": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"ensure_comprehensions": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"indentation": {
-			"active": 1,
+			"active": true,
 			"flagValue": 2
 			},
 		"line_endings": {
-			"active": 0,
+			"active": false,
 			"flagValue": 0
 			},
 		"max_line_length": {
-			"active": 0,
+			"active": false,
 			"flagValue": 150
 			},
 		"missing_fat_arrows": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"newlines_after_classes": {
-			"active": 0,
+			"active": false,
 			"flagValue": 3
 			},
 		"no_backticks": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_debugger": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_empty_functions": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"no_empty_param_list": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"no_implicit_braces": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"no_interpolation_in_single_quotes": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"no_nested_string_interpolation": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_plusplus": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"no_private_function_fat_arrows": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_tabs": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_this": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_trailing_semicolons": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_trailing_whitespace": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"no_unnecessary_double_quotes": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"no_unnecessary_fat_arrows": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"prefer_english_operator": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"space_operators": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"spacing_after_comma": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			}
 		},
@@ -903,1023 +903,1023 @@
 	"esLintEnvironmentsMask": 58433,
 	"esLintRules": {
 		"accessor-pairs": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
 		"array-bracket-newline": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'multiline': true, 'minItems': null}"
 			},
 		"array-bracket-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
 			},
 		"array-callback-return": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"arrow-body-style": {
-			"active": 0,
+			"active": false,
 			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
 			},
 		"arrow-parens": {
-			"active": 0,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"arrow-spacing": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"block-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"brace-style": {
-			"active": 1,
+			"active": false,
 			"optionString": "'1tbs', {'allowSingleLine': true}"
 			},
 		"callback-return": {
-			"active": 1,
+			"active": false,
 			"optionString": "['callback', 'cb', 'next']"
 			},
 		"camelcase": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
 			},
 		"capitalized-comments": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
 			},
 		"class-methods-use-this": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'exceptMethods': []}"
 			},
 		"comma-dangle": {
-			"active": 1,
+			"active": true,
 			"optionString": "'never'"
 			},
 		"comma-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'before': false, 'after': true}"
 			},
 		"comma-style": {
-			"active": 1,
+			"active": false,
 			"optionString": "'last'"
 			},
 		"complexity": {
-			"active": 1,
+			"active": false,
 			"optionString": "20"
 			},
 		"computed-property-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "'never'"
 			},
 		"consistent-return": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'treatUndefinedAsUnspecified': false}"
 			},
 		"consistent-this": {
-			"active": 1,
+			"active": false,
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"curly": {
-			"active": 1,
+			"active": false,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"dot-location": {
-			"active": 1,
+			"active": false,
 			"optionString": "'object'"
 			},
 		"dot-notation": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allowKeywords': false}"
 			},
 		"eol-last": {
-			"active": 0,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"eqeqeq": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"func-call-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "'never'"
 			},
 		"func-name-matching": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
 			},
 		"func-names": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always', {'generators': 'always'}"
 			},
 		"func-style": {
-			"active": 1,
+			"active": false,
 			"optionString": "'expression'"
 			},
 		"function-paren-newline": {
-			"active": 1,
+			"active": false,
 			"optionString": "'multiline'"
 			},
 		"generator-star-spacing": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'before': true, 'after': false}"
 			},
 		"getter-return": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"guard-for-in": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"handle-callback-err": {
-			"active": 0,
+			"active": false,
 			"optionString": "'err'"
 			},
 		"id-blacklist": {
-			"active": 1,
+			"active": false,
 			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
 			},
 		"id-length": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
 			},
 		"id-match": {
-			"active": 1,
+			"active": false,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
 			},
 		"implicit-arrow-linebreak": {
-			"active": 1,
+			"active": false,
 			"optionString": "'beside'"
 			},
 		"indent": {
-			"active": 1,
+			"active": false,
 			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
-			"active": 0,
+			"active": false,
 			"optionString": "'always',  {'ignoreForLoopInit': true}"
 			},
 		"jsx-quotes": {
-			"active": 1,
+			"active": false,
 			"optionString": "'prefer-double'"
 			},
 		"key-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
 			},
 		"keyword-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
 			},
 		"line-comment-position": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'position': 'above'}"
 			},
 		"linebreak-style": {
-			"active": 1,
+			"active": false,
 			"optionString": "'unix'"
 			},
 		"lines-around-comment": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'beforeBlockComment': true}"
 			},
 		"lines-between-class-members": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-classes-per-file": {
-			"active": 0,
+			"active": false,
 			"optionString": "1"
 			},
 		"max-depth": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 4}"
 			},
 		"max-len": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
 			},
 		"max-lines": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
 			},
 		"max-lines-per-function": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 10}"
 			},
 		"max-params": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 4}"
 			},
 		"max-statements": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
 		"max-statements-per-line": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 1}"
 			},
 		"multiline-comment-style": {
-			"active": 1,
+			"active": false,
 			"optionString": "'starred-block'"
 			},
 		"multiline-ternary": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"new-cap": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"newline-per-chained-call": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-array-constructor": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-async-promise-executor": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-await-in-loop": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-bitwise": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-caller": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-case-declarations": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-class-assign": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-cond-assign": {
-			"active": 1,
+			"active": true,
 			"optionString": "'except-parens'"
 			},
 		"no-confusing-arrow": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-constant-condition": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-continue": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-control-regex": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-debugger": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-delete-var": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-div-regex": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-dupe-args": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-dupe-keys": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-duplicate-imports": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-empty": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-empty-function": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-eq-null": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-eval": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-extend-native": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-extra-labels": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 0,
+			"active": false,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-fallthrough": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-floating-decimal": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-func-assign": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-implied-eval": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-inline-comments": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-inner-declarations": {
-			"active": 1,
+			"active": true,
 			"optionString": "'functions'"
 			},
 		"no-invalid-regexp": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
 			},
 		"no-invalid-this": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-irregular-whitespace": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-label-var": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-labels": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-lonely-if": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-loop-func": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-magic-numbers": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-mixed-operators": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-multi-spaces": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-multiple-empty-lines": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-nested-ternary": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-new": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-new-func": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-new-object": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-new-require": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-new-symbol": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-new-wrappers": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-obj-calls": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-octal": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-octal-escape": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-param-reassign": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-plusplus": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-process-exit": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-proto": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-prototype-builtins": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-redeclare": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-restricted-globals": {
-			"active": 1,
+			"active": false,
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-restricted-modules": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-restricted-properties": {
-			"active": 0,
+			"active": false,
 			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
 			},
 		"no-restricted-syntax": {
-			"active": 1,
+			"active": false,
 			"optionString": "'FunctionExpression', 'WithStatement'"
 			},
 		"no-return-assign": {
-			"active": 1,
+			"active": false,
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-script-url": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-self-assign": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-sequences": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-shadow": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-sparse-arrays": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-sync": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
-			"active": 1,
+			"active": false,
 			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-ternary": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-this-before-super": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-throw-literal": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-trailing-spaces": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-undefined": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-underscore-dangle": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-unneeded-ternary": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-unsafe-finally": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"no-unused-vars": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-useless-catch": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-useless-concat": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-useless-constructor": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-useless-escape": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-useless-rename": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-var": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-void": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"no-warning-comments": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"no-with": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"nonblock-statement-body-position": {
-			"active": 1,
+			"active": false,
 			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
 			},
 		"object-curly-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "'never'"
 			},
 		"object-property-newline": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
-			"active": 0,
+			"active": false,
 			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
 			},
 		"one-var": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"one-var-declaration-per-line": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"operator-assignment": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"operator-linebreak": {
-			"active": 1,
+			"active": false,
 			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
 			},
 		"padded-blocks": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
 		"padding-line-between-statements": {
-			"active": 1,
+			"active": false,
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"prefer-const": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
 		"prefer-destructuring": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"prefer-object-spread": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"prefer-promise-reject-errors": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"prefer-spread": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"prefer-template": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"quote-props": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"quotes": {
-			"active": 1,
+			"active": false,
 			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
-			"active": 0,
+			"active": false,
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"require-await": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"require-jsdoc": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"require-yield": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
-			"active": 0,
+			"active": false,
 			"optionString": "'never'"
 			},
 		"semi": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always', {'omitLastInOneLineBlock': false}"
 			},
 		"semi-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'before': false, 'after': true}"
 			},
 		"semi-style": {
-			"active": 1,
+			"active": false,
 			"optionString": "'last'"
 			},
 		"sort-imports": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
 			},
 		"sort-keys": {
-			"active": 1,
+			"active": false,
 			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
 			},
 		"sort-vars": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'ignoreCase': false}"
 			},
 		"space-before-blocks": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
 			},
 		"space-before-function-paren": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'anonymous': 'always', 'named': 'never'}"
 			},
 		"space-in-parens": {
-			"active": 1,
+			"active": false,
 			"optionString": "'never', {'exceptions': []}"
 			},
 		"space-infix-ops": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'int32Hint': false}"
 			},
 		"space-unary-ops": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
 			},
 		"spaced-comment": {
-			"active": 1,
+			"active": false,
 			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
-			"active": 0,
+			"active": false,
 			"optionString": "'safe'"
 			},
 		"switch-colon-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"template-curly-spacing": {
-			"active": 0,
+			"active": false,
 			"optionString": "'never'"
 			},
 		"template-tag-spacing": {
-			"active": 1,
+			"active": false,
 			"optionString": "'never'"
 			},
 		"unicode-bom": {
-			"active": 1,
+			"active": false,
 			"optionString": "'never'"
 			},
 		"use-isnan": {
-			"active": 1,
+			"active": true,
 			"optionString": ""
 			},
 		"valid-jsdoc": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
 			},
 		"valid-typeof": {
-			"active": 1,
+			"active": true,
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
+			"active": false,
 			"optionString": ""
 			},
 		"wrap-iife": {
-			"active": 0,
+			"active": false,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 1,
+			"active": false,
 			"optionString": ""
 			},
 		"yield-star-spacing": {
-			"active": 0,
+			"active": false,
 			"optionString": "{'before': false, 'after': true}"
 			},
 		"yoda": {
-			"active": 0,
+			"active": false,
 			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
 			}
 		},
@@ -1930,349 +1930,349 @@
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"bitwise": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"boss": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"browser": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"browserify": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"camelcase": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"couch": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"curly": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"debug": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"devel": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"dojo": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"elision": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"eqeqeq": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"eqnull": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"es3": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"esnext": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"evil": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"expr": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"forin": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"freeze": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"funcscope": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"futurehostile": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"globalstrict": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"immed": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"indent": {
-			"active": 1,
+			"active": false,
 			"flagValue": 4
 			},
 		"iterator": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"jasmine": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"jquery": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"lastsemic": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"latedef": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"laxbreak": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"laxcomma": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"loopfunc": {
-			"active": 1,
+			"active": false,
 			"flagValue": -1
 			},
 		"maxcomplexity": {
-			"active": 0,
+			"active": false,
 			"flagValue": 10
 			},
 		"maxdepth": {
-			"active": 0,
+			"active": false,
 			"flagValue": 3
 			},
 		"maxlen": {
-			"active": 0,
+			"active": false,
 			"flagValue": 150
 			},
 		"maxparams": {
-			"active": 0,
+			"active": false,
 			"flagValue": 3
 			},
 		"maxstatements": {
-			"active": 0,
+			"active": false,
 			"flagValue": 4
 			},
 		"mocha": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"mootools": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"moz": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"multistr": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"newcap": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"noarg": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"nocomma": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"node": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"noempty": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"nonbsp": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"nonew": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"nonstandard": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"notypeof": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"noyield": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"onecase": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"phantom": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"plusplus": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"proto": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"prototypejs": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"qunit": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"regexp": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"rhino": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"scripturl": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"shadow": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"shelljs": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"singleGroups": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"strict": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"sub": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"supernew": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"typed": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"undef": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"varstmt": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"withstmt": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"worker": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"wsh": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"yui": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			}
 		},
 	"jsLintFlags2": {
 		"bitwise": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"browser": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"couch": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"devel": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"es6": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"eval": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"for": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"maxlen": {
-			"active": 0,
+			"active": false,
 			"flagValue": 150
 			},
 		"node": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"this": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"white": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			}
 		},
@@ -2553,267 +2553,267 @@
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"arguments": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"arrows": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"ascii_only": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"booleans": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"booleans_as_integers": {
-			"active": 1,
+			"active": false,
 			"flagValue": -1
 			},
 		"braces": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"collapse_vars": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"comparisons": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"computed_props": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"conditionals": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"dead_code": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"directives": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"drop_console": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"drop_debugger": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"ecma": {
-			"active": 1,
+			"active": true,
 			"flagValue": 5
 			},
 		"eval": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"evaluate": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"expression": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"hoist_funs": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"hoist_props": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"hoist_vars": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"ie8": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"if_return": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"indent_level": {
-			"active": 0,
+			"active": false,
 			"flagValue": 4
 			},
 		"indent_start": {
-			"active": 0,
+			"active": false,
 			"flagValue": 0
 			},
 		"inline": {
-			"active": 1,
+			"active": true,
 			"flagValue": 3
 			},
 		"inline_script": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"join_vars": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"keep_classnames": {
-			"active": 1,
+			"active": false,
 			"flagValue": -1
 			},
 		"keep_fargs": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"keep_fnames": {
-			"active": 1,
+			"active": false,
 			"flagValue": -1
 			},
 		"keep_infinity": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"keep_quoted_props": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"loops": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"max_line_len": {
-			"active": 1,
+			"active": true,
 			"flagValue": 32000
 			},
 		"module": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"negate_iife": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"passes": {
-			"active": 1,
+			"active": true,
 			"flagValue": 1
 			},
 		"properties": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"pure_getters": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"quote_keys": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"quote_style": {
-			"active": 1,
+			"active": true,
 			"flagValue": 0
 			},
 		"reduce_funcs": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"reduce_vars": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"safari10": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"semicolons": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"sequences": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"shebang": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"side_effects": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"switches": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"toplevel": {
-			"active": 1,
+			"active": false,
 			"flagValue": -1
 			},
 		"typeofs": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"unsafe": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_arrows": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_comps": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_Function": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_math": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_methods": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_proto": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_regexp": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unsafe_undefined": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": true,
 			"flagValue": -1
 			},
 		"warnings": {
-			"active": 1,
+			"active": false,
 			"flagValue": -1
 			},
 		"webkit": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			},
 		"wrap_iife": {
-			"active": 0,
+			"active": false,
 			"flagValue": -1
 			}
 		},
