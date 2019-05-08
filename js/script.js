@@ -16,14 +16,14 @@ $(function() {
         }).done(function(data) {
           articles.empty();
           // loadingIcon.hide();
-          //const results=data.results;
+         
           const results=data.results.filter((element)=>{return element.multimedia;}).slice(0,12);
           // console.log(results);
       $.each(results, function(_key, value) {
         const url=value.url;
         const link=value.multimedia[4].url;
         const text=value.abstract;
-        const html='<a href='+url+' target=“_blank”><img src='+link+'><p>'+text+'</p></a>';
+        const html='<li><a href='+url+' target=“_blank”><img src='+link+'><p>'+text+'</p></a></li>';
         articles.append(html);
       });
 
@@ -35,6 +35,3 @@ $(function() {
   });
 });
  
-/*
-    <img src='link'/><h1>title</h1><p>text</p>
-*/

@@ -15,12 +15,6 @@ body {
 }
 
 
-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-}
-
 /* 
         Global Att */
 
@@ -41,6 +35,8 @@ img {
 
 .boxtwo {
   display: flex;
+  color: white;
+  padding-left: 30%;
 }
 
 .selection p {
@@ -55,32 +51,25 @@ img {
 }
 
 .boxthree {
-    display: flex;
-  
+   
+    max-width: 100%;
+}
+.articles { 
 
 }
-.articles {
-  width: 45%;
-  padding: 0;
-}
 .articles ul{
-   justify-content: space-around;
+ 
+}
+.articles li {
+  width: 100%;
 }
 
 .articles img {
-    flex-wrap: wrap;
+  width: 88%;
+   
 }
-
-div.articles {
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-}
-
-div.articles p {
-  margin: 5%;
-  font-weight: bold;
-  color:black;
+.articles p {
+  width: 70%;
 }
 
 .boxfour {

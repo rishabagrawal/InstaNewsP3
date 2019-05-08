@@ -331,14 +331,6 @@ body {
   font-size: 16px;
   font-family: "Open Sans"; }
 
-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 50%; }
-
 /* 
         Global Att */
 .boxone {
@@ -356,7 +348,9 @@ img {
 .boxtwo {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  color: white;
+  padding-left: 30%; }
 
 .selection p {
   text-align: center; }
@@ -368,27 +362,16 @@ img {
   font-family: "Open Sans"; }
 
 .boxthree {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  max-width: 100%; }
 
-.articles {
-  width: 45%;
-  padding: 0; }
+.articles li {
+  width: 100%; }
 
 .articles img {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  width: 88%; }
 
-div.articles {
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6; }
-
-div.articles p {
-  margin: 5%;
-  font-weight: bold;
-  color: black; }
+.articles p {
+  width: 70%; }
 
 .boxfour {
   padding-left: 50px;
