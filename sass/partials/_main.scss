@@ -1,6 +1,6 @@
 /*Body*/
 /* 
-    Global Att */
+Global Att */
 body {
   background-color: black;
   box-sizing: border-box;
@@ -14,9 +14,8 @@ body {
   font-family: "Open Sans";
 }
 
-
 /* 
-        Global Att */
+Global Att */
 // logo starts
 .boxone {
   padding: 100px;
@@ -30,14 +29,12 @@ body {
 
 // logo ends
 
-
 // loader starts
 .loading {
   width: 30px;
   position: absolute;
 }
 //loader ends
-
 
 //selection box start
 
@@ -62,39 +59,59 @@ h1 {
 //selection ends
 
 //articles starts
+.boxthree {
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
-.articles ul{
-  display: flex;
- flex-direction: column;
+.articles {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+margin: auto;
+img{
+  height:50vh
+}
+    @include tablet {
+      flex-direction: row;
+      li{
+     
+        flex: 1 0 50%;
+      }
+    }
+    @include desktop {
+      li{
+      flex: 1 0 25%;}
+    }
+  
 }
 
 .art-content {
-  flex: 0 1 100%;
   position: relative;
-@include tablet {
-  max-width: 50%;
-}
-@include desktop {
-  max-width: 25%;
-}
+
+  @include tablet {
+  }
+  @include desktop {
+  }
 }
 
 .articles img {
   width: 100%;
-   
 }
 .text-content {
   position: absolute;
   bottom: 0;
 }
 
-
- p {
+p {
   color: white;
   text-decoration-line: none;
   text-align: center;
   margin: auto;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   padding: 8px;
 }
 // articles end
@@ -104,14 +121,13 @@ h1 {
   padding: 50px;
 }
 
-h2{
+h2 {
   text-align: center;
   font-size: 10px;
   position: sticky;
   color: gray;
   text-transform: uppercase;
 }
-//footer ends 
+//footer ends
 
 // M.Q
-

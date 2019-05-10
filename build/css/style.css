@@ -309,7 +309,7 @@ template {
 
 /*Body*/
 /* 
-    Global Att */
+Global Att */
 body {
   background-color: black;
   -webkit-box-sizing: border-box;
@@ -332,7 +332,7 @@ body {
   font-family: "Open Sans"; }
 
 /* 
-        Global Att */
+Global Att */
 .boxone {
   padding: 100px;
   min-height: auto;
@@ -362,26 +362,45 @@ h1 {
   width: 150px;
   font-family: "Open Sans"; }
 
-.articles ul {
+@media (min-width: 600px) {
+  .boxthree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+
+.articles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto; }
+  .articles img {
+    height: 50vh; }
+  @media (min-width: 600px) {
+    .articles {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .articles li {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 50%;
+                flex: 1 0 50%; } }
+  @media (min-width: 1000px) {
+    .articles li {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 25%;
+              flex: 1 0 25%; } }
 
 .art-content {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
   position: relative; }
-  @media (min-width: 600px) {
-    .art-content {
-      max-width: 50%; } }
-  @media (min-width: 1000px) {
-    .art-content {
-      max-width: 25%; } }
 
 .articles img {
   width: 100%; }
