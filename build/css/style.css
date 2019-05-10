@@ -431,7 +431,19 @@ h1 {
   position: relative; }
 
 .articles img {
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+  transition: transform .5s, filter 1.5s ease-in-out;
+  transition: transform .5s, filter 1.5s ease-in-out, -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%); }
+
+.articles img:hover {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .text-content {
   position: absolute;
