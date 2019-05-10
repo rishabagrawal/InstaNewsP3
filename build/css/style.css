@@ -371,17 +371,30 @@ h1 {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+.art-content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+  position: relative; }
+  @media (min-width: 600px) {
+    .art-content {
+      max-width: 50%; } }
+  @media (min-width: 1000px) {
+    .art-content {
+      max-width: 25%; } }
+
 .articles img {
-  width: 88%; }
+  width: 100%; }
+
+.text-content {
+  position: absolute;
+  bottom: 0; }
 
 p {
   color: white;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-  position: absolute;
-  bottom: 0;
   text-align: center;
-  width: 69%;
   margin: auto;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));

@@ -23,7 +23,7 @@ $(function() {
         const url=value.url;
         const link=value.multimedia[4].url;
         const text=value.abstract;
-        const html='<li><a href='+url+' target=“_blank”><img src='+link+'><p>'+text+'</p></a></li>';
+        const html='<li><div class="art-content"><a href='+url+' target=“_blank”><img src='+link+'><div class="text-content" ><p>'+text+'</p></div></a></div></li>';
         articles.append(html);
       });
 
