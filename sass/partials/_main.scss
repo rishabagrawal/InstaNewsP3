@@ -12,12 +12,20 @@ body {
   max-width: 100%;
   font-size: 16px;
   font-family: "Open Sans";
+
+  @include tablet{
+    font-size: 16px;
+  }
+  @include tablet{
+    font-size: 16px;
+  }
 }
 
 //header
 header{
   width:100%;
-}
+  }
+
 .container{
   max-width:$desktop-width;
   margin:0 auto;
@@ -50,10 +58,10 @@ Global Att */
 
 // loader starts
 .loader {
-  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  border-left: 16px solid pink;
+  border-top: 16px solid rgb(0,255,127);
+  border-right: 16px solid rgb(0,191,255);
+  border-bottom: 16px solid rgb(255,0,255);
+  border-left: 16px solid rgb(220,20,60);
   border-radius: 40%;
   width: 60px;
   height: 60px;
@@ -93,6 +101,7 @@ h1 {
   }
 }
 
+
 .articles {
   display: flex;
   flex-direction: column;
@@ -100,6 +109,7 @@ h1 {
   margin: auto;
   padding-left:0;
   box-sizing: border-box;
+  overflow: hidden;
   img {
     height: 50vh;
     border-radius: 30px;
@@ -111,12 +121,12 @@ h1 {
   @include tablet {
     flex-direction: row;
     li {
-      flex: 1 0 45%;
+      flex: 1 0 50%;
     }
   }
   @include desktop {
     li {
-      flex: 1 0 21%;
+      flex: 1 0 25%;
     }
   }
 }
