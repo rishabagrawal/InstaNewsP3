@@ -1,4 +1,16 @@
 # InstaNewsP3
+Features Added:
+
+    border box around each article
+    border zooms in when hovered on scale 1:1
+    border glows a faint green around
+    image brightness increases from 50% to 100% for visibility purposes
+    article ease-in-out
+
+    added custom loader
+    added a inner loader inside loader
+
+
 GULP
 
     Introduce Node.js and npm

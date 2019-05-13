@@ -62,14 +62,25 @@ Global Att */
   border-right: 16px solid rgb(0,191,255);
   border-bottom: 16px solid rgb(255,0,255);
   border-left: 16px solid rgb(220,20,60);
-  border-radius: 40%;
+  border-radius: 50%;
   width: 60px;
   height: 60px;
   animation: spin 2s linear infinite;
   position: relative;
   display: inline-flex;
 }
-
+// .loader-inner {
+//   border-top: 10px solid rgba(132, 99, 195, 0.123);
+//   border-right: 10px solid rgb(255, 166, 0);
+//   border-bottom: 10px solid rgb(136, 255, 0);
+//   border-left: 10px solid rgb(20, 33, 220);
+//   border-radius: 50%;
+//   width: 40px;
+//   height: 40px;
+//   animation: spin 3s linear infinite;
+//   position: relative;
+//   display: inline-flex;
+// }
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -104,7 +115,6 @@ h1 {
 
 .articles {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   margin: auto;
   padding-left:0;
@@ -113,14 +123,14 @@ h1 {
   img {
     height: 50vh;
     border-radius: 30px;
-    
   }
 
-  
+
 
   @include tablet {
     flex-direction: row;
     li {
+      
       flex: 1 0 50%;
     }
   }
@@ -138,13 +148,13 @@ h1 {
 //animation
 
 .articles img {
-  object-fit: 'contain';
   width: 100%;
   transition: transform .5s, filter 1.5s ease-in-out;
   border: 1px solid #ddd;
   padding: 5px;
   filter: brightness(50%);
-    a {
+
+.articles a {
     color: $link-colour;
     &:hover {
       color: darken($link-colour, 20%);

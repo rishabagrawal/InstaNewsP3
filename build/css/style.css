@@ -382,7 +382,7 @@ Global Att */
   border-right: 16px solid deepskyblue;
   border-bottom: 16px solid magenta;
   border-left: 16px solid crimson;
-  border-radius: 40%;
+  border-radius: 50%;
   width: 60px;
   height: 60px;
   -webkit-animation: spin 2s linear infinite;
@@ -431,10 +431,6 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: auto;
@@ -465,8 +461,6 @@ h1 {
   position: relative; }
 
 .articles img {
-  -o-object-fit: 'contain';
-     object-fit: 'contain';
   width: 100%;
   -webkit-transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
   transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
@@ -476,11 +470,11 @@ h1 {
   padding: 5px;
   -webkit-filter: brightness(50%);
           filter: brightness(50%); }
-  .articles img a {
+  .articles img .articles a {
     color: #800800; }
-    .articles img a:hover {
+    .articles img .articles a:hover {
       color: #1a0200; }
-      .articles img a:hover:visited {
+      .articles img .articles a:hover:visited {
         color: #495175; }
 
 .articles img:hover {
