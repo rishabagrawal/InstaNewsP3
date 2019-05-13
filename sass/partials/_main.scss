@@ -69,18 +69,18 @@ Global Att */
   position: relative;
   display: inline-flex;
 }
-// .loader-inner {
-//   border-top: 10px solid rgba(132, 99, 195, 0.123);
-//   border-right: 10px solid rgb(255, 166, 0);
-//   border-bottom: 10px solid rgb(136, 255, 0);
-//   border-left: 10px solid rgb(20, 33, 220);
-//   border-radius: 50%;
-//   width: 40px;
-//   height: 40px;
-//   animation: spin 3s linear infinite;
-//   position: relative;
-//   display: inline-flex;
-// }
+.loader-inner {
+  border-top: 10px solid rgba(132, 99, 195, 0.123);
+  border-right: 10px solid rgb(255, 166, 0);
+  border-bottom: 10px solid rgb(136, 255, 0);
+  border-left: 10px solid rgb(20, 33, 220);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 3s linear infinite;
+  position: relative;
+  display: inline-flex;
+}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }

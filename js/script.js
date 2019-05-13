@@ -1,7 +1,7 @@
 
 $(function() {
 
-  //  loadingIcon.hide();
+ 
 
   const loadingIcon=$('.loader');
   const articles=$('.articles');

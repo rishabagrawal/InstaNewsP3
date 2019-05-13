@@ -392,6 +392,21 @@ Global Att */
   display: -ms-inline-flexbox;
   display: inline-flex; }
 
+.loader-inner {
+  border-top: 10px solid rgba(132, 99, 195, 0.123);
+  border-right: 10px solid #ffa600;
+  border-bottom: 10px solid #88ff00;
+  border-left: 10px solid #1421dc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
