@@ -411,7 +411,7 @@ Global Att */
 h1 {
   text-align: center;
   font-size: inherit;
-  color: white; }
+  color: #ffff; }
 
 .selectors {
   background: white;
@@ -476,6 +476,12 @@ h1 {
   padding: 5px;
   -webkit-filter: brightness(50%);
           filter: brightness(50%); }
+  .articles img a {
+    color: #800800; }
+    .articles img a:hover {
+      color: #1a0200; }
+      .articles img a:hover:visited {
+        color: #495175; }
 
 .articles img:hover {
   -webkit-transform: scale(1.1);

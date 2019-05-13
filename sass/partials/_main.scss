@@ -81,7 +81,7 @@ Global Att */
 h1 {
   text-align: center;
   font-size: inherit;
-  color: white;
+  color: $color;
 }
 
 .selectors {
@@ -144,6 +144,15 @@ h1 {
   border: 1px solid #ddd;
   padding: 5px;
   filter: brightness(50%);
+    a {
+    color: $link-colour;
+    &:hover {
+      color: darken($link-colour, 20%);
+      &:visited {
+        color: mix($link-colour, rgb(18, 154, 233), 50%);
+     }
+   }
+}
 }
 
 .articles img:hover {
@@ -167,6 +176,9 @@ p {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   padding: 8px;
 }
+
+
+
 // articles end
 
 // footer starts
