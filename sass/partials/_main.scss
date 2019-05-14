@@ -36,9 +36,6 @@ header{
   padding: 50px;
   width: 100%;
   display:flex;
-  flex-flow:column;
-  justify-content: center;
-  align-items: center;
   @include desktop{
     flex-flow:row;
     justify-content: space-around;
@@ -53,6 +50,9 @@ Global Att */
 .logo-pic {
   width: auto;
 }
+.logo-pic :hover {
+  transform: rotate3d(1, 0, 0, 45deg);
+}
 
 // logo ends
 
@@ -65,26 +65,44 @@ Global Att */
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: spin 2s linear infinite;
+  animation: spin 6s linear infinite;
   position: relative;
   display: inline-flex;
+  animation: transform(X, Y, Z);
+  transform: rotate3d(x,y,z,180deg)
 }
 .loader-inner {
-  border-top: 10px solid rgba(132, 99, 195, 0.123);
+  border-top: 10px solid #cfdd04dc;
   border-right: 10px solid rgb(255, 166, 0);
   border-bottom: 10px solid rgb(136, 255, 0);
   border-left: 10px solid rgb(20, 33, 220);
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  animation: spin 3s linear infinite;
+  animation: spin 9s linear infinite;
   position: relative;
   display: inline-flex;
+  
 }
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% { transform: rotate3d(0deg); }
+  25% { transform: rotate3d(90deg);}
+  50% { transform: rotate3d(180deg);}
+  100% { transform: rotate3d(360deg); }
 }
+// @keyframes transformX {
+//   0% { transform: rotateX(0deg); }
+//   100% { transform: rotateX(180deg); }
+// }
+// @keyframes transformY {
+//   0% { transform: rotateY(0deg); }
+//   100% { transform: rotateY(180deg); }
+// }
+// @keyframes transformZ {
+//   0% { transform: rotateZ(0deg); }
+//   100% { transform: rotateZ(180deg); }
+// }
+
 //loader ends
 
 //selection box start

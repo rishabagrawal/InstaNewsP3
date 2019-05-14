@@ -349,17 +349,7 @@ header {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  display: flex; }
   @media (min-width: 1000px) {
     .header-box {
       -webkit-box-orient: horizontal;
@@ -377,6 +367,10 @@ Global Att */
 .logo-pic {
   width: auto; }
 
+.logo-pic :hover {
+  -webkit-transform: rotate3d(1, 0, 0, 45deg);
+          transform: rotate3d(1, 0, 0, 45deg); }
+
 .loader {
   border-top: 16px solid springgreen;
   border-right: 16px solid deepskyblue;
@@ -385,23 +379,27 @@ Global Att */
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
+  -webkit-animation: spin 6s linear infinite;
+          animation: spin 6s linear infinite;
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex; }
+  display: inline-flex;
+  -webkit-animation: transform(X, Y, Z);
+          animation: transform(X, Y, Z);
+  -webkit-transform: rotate3d(x, y, z, 180deg);
+          transform: rotate3d(x, y, z, 180deg); }
 
 .loader-inner {
-  border-top: 10px solid rgba(132, 99, 195, 0.123);
+  border-top: 10px solid #cfdd04dc;
   border-right: 10px solid #ffa600;
   border-bottom: 10px solid #88ff00;
   border-left: 10px solid #1421dc;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  -webkit-animation: spin 3s linear infinite;
-          animation: spin 3s linear infinite;
+  -webkit-animation: spin 9s linear infinite;
+          animation: spin 9s linear infinite;
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -409,19 +407,31 @@ Global Att */
 
 @-webkit-keyframes spin {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    -webkit-transform: rotate3d(0deg);
+            transform: rotate3d(0deg); }
+  25% {
+    -webkit-transform: rotate3d(90deg);
+            transform: rotate3d(90deg); }
+  50% {
+    -webkit-transform: rotate3d(180deg);
+            transform: rotate3d(180deg); }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+    -webkit-transform: rotate3d(360deg);
+            transform: rotate3d(360deg); } }
 
 @keyframes spin {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    -webkit-transform: rotate3d(0deg);
+            transform: rotate3d(0deg); }
+  25% {
+    -webkit-transform: rotate3d(90deg);
+            transform: rotate3d(90deg); }
+  50% {
+    -webkit-transform: rotate3d(180deg);
+            transform: rotate3d(180deg); }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+    -webkit-transform: rotate3d(360deg);
+            transform: rotate3d(360deg); } }
 
 h1 {
   text-align: center;
